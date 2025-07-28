@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "Design patterns",
   "main": "dist/main.js",
-  "author": "Nataliia Khodova <icxodnik@gmail.com>",
+  "author": "Nataliia Khodorova <icxodnik@gmail.com>",
   "scripts": {
     "build": "tsc",
     "builder": "ts-node src/builder/main.ts",
     "prototype": "ts-node src/prototype/main.ts",
     "singleton": "ts-node src/singleton/main.ts",
-    "dev": "tsc -w"
+    "dev": "tsc -w",
+    "format": "prettier --config .prettierrc.json 'src/**/*.ts' --write"
   },
   "dependencies": {
     "ts-node": "^10.9.1",
